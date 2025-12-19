@@ -163,3 +163,21 @@ legend{
     grid-template-columns:1fr;
   }
 }
+.cta-button:hover {
+  background-color:#e74c3c; /*warna merah kontras */
+  color: white;
+  font-weight:bold;
+}
+  padding:8px 15px; /*
+  berder-radius: 5px;
+  /* efek hover */
+  transition:background_color 0,3s ease;
+}
+  .cta-button:hover {
+      background-color:
+      text-decoration: none;
+  }
+display:flex
+gap:20px;
+}
+}
