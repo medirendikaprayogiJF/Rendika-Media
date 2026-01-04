@@ -1,0 +1,114 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar utama */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1e272e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 40px;
+}
+
+/* Logo */
+.logo a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Menu utama */
+.main-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* Link menu */
+.main-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 0;
+    display: block;
+}
+
+/* Hover menu */
+.main-menu li a:hover {
+    color: #ff4757;
+}
+
+/* Dropdown parent */
+.dropdown-parent {
+    position: relative;
+}
+
+/* Submenu */
+.submenu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #2f3640;
+    list-style: none;
+    min-width: 160px;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Item submenu */
+.submenu li a {
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+/* Hover submenu */
+.submenu li a:hover {
+    background-color: #ff4757;
+}
+
+/* Tampilkan submenu saat hover */
+.dropdown-parent:hover .submenu {
+    display: block;
+}
+
+/* CTA Button */
+.nav-cta {
+    margin-left: 20px;
+}
+
+.cta-button {
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e84118;
+}
+
+/* Main content */
+main {
+    padding: 40px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
